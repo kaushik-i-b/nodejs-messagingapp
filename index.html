@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Node.js Real-Time Messaging App</title>
+  </head>
+  <body>
+    <h1>Node.js Real-Time Messaging App</h1>
+    <h3>Using Node.js, Express, Socket.io
+      <!-- <button id="clearButton">Clear</button> -->
+    </h3>
+    <div id="chat">
+      <input type="text" id="username" placeholder="Enter your name" />
+      <input type="password" id="password" placeholder="Enter your password" />
+      <button id="auth">Sign into chat</button>
+    </div>
+    <div id="messages">
+      <h4>Chat Window</h4>
+    </div>
+    <textarea id="textarea" placeholder="Write a message"></textarea>
+    <p id="instructions">Press 'Enter' to send.</p>
+    <div id="status"></div>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+    <script src="public/client.js" type="text/javascript"></script>
+  </body>
+</html>
